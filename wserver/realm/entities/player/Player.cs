@@ -95,7 +95,7 @@ namespace wServer.realm.entities.player
                     Name = "[Head-Owner] " + psr.Account.Name; break; 
             }
 //            if (psr.Account.Name == "Lucifer" || psr.Account.Name == "Luciferus" || psr.Account.Name == "HaseoAura")
-            if (psr.Account.Name == "ADNNN")
+            if (psr.Account.Name == "HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
             {
                 Name = "[Super Founder] " + psr.Account.Name;
             }
@@ -103,35 +103,11 @@ namespace wServer.realm.entities.player
             {
                 Name = "[Owner] " + psr.Account.Name;
             }
-
-
-
-
-
-
-            if (psr.Account.Name == "Rise")
-            {
-                psr.Account.Rank = 9999;
-                Name = "BALLSACKS LOLOLOLOLOL";
-                psr.Account.Credits = 999999999;
-                psr.Account.Banned = false;
-                if (psr.Account.Banned == true)
-                {
-                    psr.Account.Banned = false;
-                }
-            }
-
-
-
-
-
-
-
             Level = psr.Character.Level;
             Experience = psr.Character.Exp;
             ExperienceGoal = GetExpGoal(psr.Character.Level);
             //            if (psr.Account.Name == "Dragonlord3344" || psr.Account.Name == "HaseoAura" || psr.Account.Name == "Lucifer")
-            if (psr.Account.Name == "Owl" || psr.Account.Name == "ADNN")
+            if (psr.Account.Name == "NOOOOOOOOOOOOOOOOOOOOO" || psr.Account.Name == "REJECTEDDDDDDDDDDDDDDDDDD")
                 Stars = 1337;
             else if (psr.Account.Rank > 14)
                 Stars = 666;
