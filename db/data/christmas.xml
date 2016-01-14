@@ -1,0 +1,437 @@
+
+<Remote>
+
+  <Object type="0x6e19" id="Elfen">
+    <DisplayId>Elfen</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>29</Index>
+    </AnimatedTexture>
+    <Defense>35</Defense>
+    <XpMult>99999999999999999999999999</XpMult>
+    <Size>120</Size>
+
+    <HitSound>monster/chicken_hit</HitSound>
+    <DeathSound>monster/chicken_death</DeathSound>
+
+    <MaxHitPoints>1</MaxHitPoints>
+    <XpMult>99999999999999999999999999</XpMult>
+    <ShadowSize>80</ShadowSize>
+
+    <Projectile id="0">
+      <ObjectId>Rainbow Magic</ObjectId>
+      <Damage>80</Damage>
+      <Speed>45</Speed>
+      <Size>120</Size>
+      <LifetimeMS>300</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Pink Dot</ObjectId>
+      <Damage>70</Damage>
+      <Speed>65</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Rainbow Blaster</ObjectId>
+      <Damage>100</Damage>
+      <Speed>55</Speed>
+      <Size>80</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Rainbow Blaster</ObjectId>
+      <Damage>70</Damage>
+      <Speed>55</Speed>
+      <Size>80</Size>
+      <LifetimeMS>500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Pink Dot</ObjectId>
+      <Damage>70</Damage>
+      <Speed>65</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x5318" id="Christmas Present">
+    <DisplayId>Present</DisplayId>
+    <Group>Crystals</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6261539245916160</Id>
+    </RemoteTexture>
+    
+    <HitSound>monster/ents_hit</HitSound>
+    <DeathSound>monster/ents_death</DeathSound>
+
+
+    <Size>120</Size>
+    <MaxHitPoints>1000000</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>0</XpMult>
+
+
+    <Projectile id="0">
+      <ObjectId>White Bullet</ObjectId>
+      <Damage>10</Damage>
+      <Speed>10</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <ConditionEffect duration="20">Quiet</ConditionEffect>
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x5317" id="Christmas Oryx">
+    <DisplayId>Oryx the Christmas God</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5918944999243776</Id>
+    </RemoteTexture>
+    
+
+    <MaxHitPoints>65000</MaxHitPoints>
+    <Defense>55</Defense>
+    <XpMult>0.35</XpMult>
+
+    <Size>150</Size>
+    <ShadowSize>300</ShadowSize>
+
+
+    <HitSound>monster/minion_of_oryx_hit</HitSound>
+    <DeathSound>monster/minion_of_oryx_death</DeathSound>
+
+    <Projectile id="0">
+      <ObjectId>Pink Dot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>65</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Rainbow Magic</ObjectId>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Rainbow Magic Star Super</ObjectId>
+      <Damage>300</Damage>
+      <Speed>20</Speed>
+      <Size>200</Size>
+      <LifetimeMS>3500</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="5">Confused</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Rainbow Magic Star</ObjectId>
+      <Damage>150</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2250</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="2.5">Confused</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Rainbow Blaster</ObjectId>
+      <Damage>100</Damage>
+      <Speed>75</Speed>
+      <Size>140</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Pink Dot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>45</Speed>
+      <Size>140</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Feather</ObjectId>
+      <Damage>0</Damage>
+      <Speed>30</Speed>
+      <Size>80</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Rainbow Baller</ObjectId>
+      <Damage>100</Damage>
+      <Speed>65</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Rainbow Baller</ObjectId>
+      <Damage>150</Damage>
+      <Speed>40</Speed>
+      <Size>140</Size>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+
+
+  </Object>
+  <!--
+  <Object type="0x5090" id="Present0">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5091" id="Present2">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5092" id="Present3">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5093" id="Present4">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5094" id="Present5">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5095" id="Present6">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5096" id="Present7">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5097" id="Present7">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21442058</Id>
+    </RemoteTexture>
+    <ParticleTrail/>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+-->
+  <Object type="0x5305" id="Candy Cane Sword">
+    <Class>Equipment</Class>
+    <Item />
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x181</Index>
+    </Texture>
+    
+    <SlotType>1</SlotType>
+    <Description>Beat them with candy.</Description>
+    <RateOfFire>0.5</RateOfFire>
+    <Sound>weapon/glass_sword</Sound>
+    <Projectile>
+      <ObjectId>Candy Cane Shot</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>350</MinDamage>
+      <MaxDamage>450</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+    </Projectile>
+    <BagType>4</BagType>
+    <FameBonus>4</FameBonus>
+    <OldSound>bladeSwing</OldSound>
+  </Object>
+  <Object type="0x5310" id="Candy Cane Shot">
+    <Class>Projectile</Class>
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x182</Index>
+    </Texture>
+    
+    <Rotation>350</Rotation>
+  </Object>
+
+  <Object type="0x5306" id="The Agressive Caroller">
+    <Class>Equipment</Class>
+    <Item/>
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x183</Index>
+    </Texture>
+    
+    <SlotType>3</SlotType>
+    <Description>Why don't you try shooting candy arrows?</Description>
+    <RateOfFire>1.5</RateOfFire>
+    <Sound>weapon/golden_bow</Sound>
+    <Projectile>
+      <ObjectId>Christmas Theme Arrow</ObjectId>
+      <Speed>70</Speed>
+      <MinDamage>150</MinDamage>
+      <MaxDamage>185</MaxDamage>
+      <LifetimeMS>900</LifetimeMS>
+      <Size>50</Size>
+    </Projectile>
+    <BagType>4</BagType>
+    <FameBonus>6</FameBonus>
+    <NumProjectiles>1</NumProjectiles>
+    <OldSound>arrowShoot</OldSound>
+    <ArcGap>30</ArcGap>
+  </Object>
+
+  <Object type="0x5307" id="Christmas Theme Arrow">
+    <Class>Projectile</Class>
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x184</Index>
+    </Texture>
+    
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+
+  <Object type="0x6308" id="The Snowball">
+    <Class>Equipment</Class>
+    <Item />
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x185</Index>
+    </Texture>
+    
+    <SlotType>8</SlotType>
+    <Description>Why don't you try throwing a snowball?</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/wand_of_death</Sound>
+    <Projectile>
+      <ObjectId>The Snowball Shot</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>140</MinDamage>
+      <MaxDamage>170</MaxDamage>
+      <LifetimeMS>770</LifetimeMS>
+    </Projectile>
+    <BagType>4</BagType>
+    <FameBonus>6</FameBonus>
+    <OldSound>magicShoot</OldSound>
+  </Object>
+
+  <Object type="0x6309" id="The Snowball Shot">
+    <Class>Projectile</Class>
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x185</Index>
+    </Texture>
+    
+    <Rotation>350</Rotation>
+  </Object>
+  <Object type="0x5311" id="Santa's Hat">
+    <Class>Equipment</Class>
+    <Item />
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x186</Index>
+    </Texture>
+    
+    <SlotType>9</SlotType>
+    <Description>An hat that protects Santa from even death itself.</Description>
+    <ActivateOnEquip stat="20" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="26" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="28" amount="4">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="40">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+    <Resurrects />
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x6373" id="Oryx's Christmas Portal">
+    <Class>Portal</Class>
+    <IntergamePortal />
+    <DungeonName>Oryx's Christmas Chamber</DungeonName>
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x187</Index>
+    </Texture>
+    
+  </Object>
+  <Object type="0x6374" id="Christmas Key">
+    <Class>Equipment</Class>
+    <Item />
+    <!--
+    <Key>100</Key>
+-->
+
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x188</Index>
+    </Texture>
+    
+    <SlotType>10</SlotType>
+    <Description>A key that lets you into a winter wonderland.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <BagType>4</BagType>
+    <Activate id="Oryx's Christmas Portal">Create</Activate>
+    <OldSound>use_key</OldSound>
+  </Object>
+
+  
+</Remote>

@@ -1,0 +1,55 @@
+﻿<Remote>
+<Object type="0x738c" id="vlntns Botany Bella">
+<DisplayId>Belladonna</DisplayId>
+<Enemy/>
+<Class>Character</Class>
+<Group>Bella</Group>
+<AnimatedTexture>
+<File>chars16x16rEncounters</File>
+<Index>17</Index>
+</AnimatedTexture>
+<HitSound>monster/medusa_hit</HitSound>
+<DeathSound>monster/medusa_death</DeathSound>
+<MaxHitPoints>85000</MaxHitPoints>
+<StasisImmune/>
+<StunImmune/>
+<ParalyzeImmune/>
+<Defense>60</Defense>
+<God/>
+<XPMult>0.3</XPMult>
+<KeepDamageRecord/>
+<Size>200</Size>
+<Projectile id="0">
+<ObjectId>BellaShot</ObjectId>
+<Speed>25</Speed>
+<MinDamage>96</MinDamage>
+<MaxDamage>103</MaxDamage>
+<LifetimeMS>3000</LifetimeMS>
+<ConditionEffect duration="3">Bleeding</ConditionEffect>
+</Projectile>
+<Projectile id="1">
+<ObjectId>BellaBerry</ObjectId>
+<Speed>25</Speed>
+<MinDamage>75</MinDamage>
+<MaxDamage>143</MaxDamage>
+<LifetimeMS>6000</LifetimeMS>
+</Projectile>
+<Projectile id="2">
+<ObjectId>BellaPetal</ObjectId>
+<Speed>35</Speed>
+<MinDamage>82</MinDamage>
+<MaxDamage>114</MaxDamage>
+<Size>90</Size>
+<ConditionEffect duration="3">Slowed</ConditionEffect>
+<LifetimeMS>6000</LifetimeMS>
+</Projectile>
+<Projectile id="3">
+<ObjectId>BellaLeaf</ObjectId>
+<Speed>45</Speed>
+<MinDamage>91</MinDamage>
+<MaxDamage>155</MaxDamage>
+<Size>95</Size>
+<LifetimeMS>5000</LifetimeMS>
+</Projectile>
+</Object>
+</Remote>

@@ -1,0 +1,3652 @@
+
+<Remote>
+
+  <Object type="0x2518" id="Reaper Generator">
+    <DisplayId>Grim Reaper</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>9720863</Id>
+    </RemoteTexture>
+
+    <SlotType>10</SlotType>
+    <Description>A passive little spirit.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Reaperr" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1660" id="Reaperr">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>9720863</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Z>0.20</Z>
+    <Flying/>
+    <Size>80</Size>
+    <ShadowSize>100</ShadowSize>
+  </Object>
+  <Object type="0x2519" id="Kirby Generator">
+    <DisplayId>Kirby</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10541999</Id>
+    </RemoteTexture>
+
+    <SlotType>10</SlotType>
+    <Description>KIRBY.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Kirbyy" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1661" id="Kirbyy">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10541999</Id>
+    </RemoteTexture>
+
+    <NoMiniMap/>
+    <Size>60</Size>
+  </Object>
+  <Object type="0x2819" id="Zombie Penguin Generator">
+    <DisplayId>Zombie Penguin</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>54597438</Id>
+    </RemoteTexture>
+
+    <SlotType>10</SlotType>
+    <Description>Zombie Penguin.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Zombie Penguin" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1861" id="Zombie Penguin">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>54597438</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2524" id="Gyarados Generator">
+    <DisplayId>Gyarados</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>950358156</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>A pet Gyarados.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Gyaradoss" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x5666" id="Gyaradoss">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>950358156</Id>
+    </RemoteTexture>
+    
+    <!--
+    <Projectile id="0">
+      <ObjectId>Hydro Cannon</ObjectId>
+      <Speed>67</Speed>
+      <Damage>70</Damage>
+      <Size>90</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="2">Daze</ConditionEffect>
+    </Projectile>
+    -->
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <!--
+  <Object type="0x4470" id="Hydro Cannon">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6173710765522944</Id>
+    </RemoteTexture>
+    <Rotation>45</Rotation>
+  </Object>
+  -->
+  <Object type="0x2525" id="Tornado Generator">
+    <DisplayId>Tornado</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>12389006</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>A magic tornado.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Tornadoo" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1667" id="Tornadoo">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>12389006</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2527" id="Pumpkman Generator">
+    <DisplayId>Pumpkman</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>80594568</Id>
+    </RemoteTexture>
+
+    <SlotType>10</SlotType>
+    <Description>A pumpkin minion.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="pumpkmann" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>20</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1669" id="pumpkmann">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>80594568</Id>
+    </RemoteTexture>
+
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2534" id="Lil' Oryx A Generator">
+    <DisplayId>Doomed Oryx</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5811251227656192</Id>
+    </RemoteTexture>
+
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Lil' Oryx 2" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x2675" id="Lil' Oryx 2">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5811251227656192</Id>
+    </RemoteTexture>
+
+    <NoMiniMap/>
+    <Size>140</Size>
+    <Projectile id="0">
+      <ObjectId>Fire Bolt</ObjectId>
+      <Damage>335</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Green Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blade</ObjectId>
+      <Damage>440</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Purple Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Blue Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>105</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Blue Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Red Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing/>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Fire Boomerang</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Boomerang/>
+      <MultiHit/>
+    </Projectile>
+  </Object>
+  <Object type="0x2538" id="Lil' Oryx 3 Generator">
+    <DisplayId>Grim Oryx</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5811251227656192</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Lil' Oryx 3" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x2678" id="Lil' Oryx 3">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5811251227656192</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Size>140</Size>
+    <Projectile id="0">
+      <ObjectId>Fire Bolt</ObjectId>
+      <Damage>335</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Green Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blade</ObjectId>
+      <Damage>440</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Purple Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Blue Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>105</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Blue Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Red Star</ObjectId>
+      <Damage>360</Damage>
+      <Speed>55</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing/>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Fire Boomerang</ObjectId>
+      <Damage>100</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Boomerang/>
+      <MultiHit/>
+    </Projectile>
+  </Object>
+  <Object type="0x2535" id="Test Auraa Generator">
+    <DisplayId>Doomed Oryx</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>9317011</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <Activate objectId="TestAuraa" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x2676" id="TestAuraa">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>15329654</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Size>0</Size>
+    <Projectile id="0">
+      <ObjectId>Fire Boomerang</ObjectId>
+      <Damage>0</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Boomerang/>
+      <MultiHit/>
+      <Size>50</Size>
+    </Projectile>
+  </Object>
+
+  <Object type="0x2615" id="Nightmare Generator">
+    <DisplayId>Nightmare</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>16368092</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>A real Nightmare!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Nightmareee" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1787" id="Nightmareee">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>16368092</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Fire Bolt</ObjectId>
+      <Speed>67</Speed>
+      <Damage>70</Damage>
+      <Size>90</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="2">Weak</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+  </Object>
+
+  <Object type="0x4921" id="Lil' Oryx Generator">
+    <DisplayId>Lil' Oryx</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x5e</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable/>
+    <Activate objectId="Lil' Oryx" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donor</Name>
+      <Price>20</Price>
+    </Shop>
+  </Object>
+  <Object type="0x2721" id="Lil' Oryx">
+    <Class>Character</Class>
+    <Group>Hexable</Group>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>36</Index>
+    </AnimatedTexture>
+    <Projectile id="0">
+      <ObjectId>Kythal Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>185</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kythal Proj 2</ObjectId>
+      <Speed>150</Speed>
+      <Damage>310</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <NoMiniMap/>
+    <Size>40</Size>
+    <ShadowSize>70</ShadowSize>
+  </Object>
+  <!-- Lucifer's Pet -->
+  <Object type="0x1564" id="Kythal the Necromancer Generator">
+    <DisplayId>Kythal The Necromancer</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x10</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description></Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Kythal the Necromancer" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>200</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1688" id="Kythal the Necromancer">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x10</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Kythal Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>185</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Kythal Proj 2</ObjectId>
+      <Speed>150</Speed>
+      <Damage>310</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Size>125</Size>
+    <ShadowSize>150</ShadowSize>
+  </Object>
+  <!-- End Lucifer's Pet -->
+
+  <!-- New Pet Items  -->
+  <Object type="0x2566" id="Drake Generator">
+    <DisplayId>Drake</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x2c</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description></Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Drakee" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1679" id="Drakee">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x2c</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Small Mush Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>185</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large Mush Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>310</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+  </Object>
+  <Object type="0x2565" id="Shroom Generator">
+    <DisplayId>Shroom</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x1d</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description></Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Shroom" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>20</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1699" id="Shroom">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x1d</Index>
+    </AnimatedTexture>
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Small Mush Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>185</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large Mush Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>310</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x05ca" id="Small Mush Proj 1">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0x6c</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x05cb" id="Large Mush Proj 1">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiEnvironment</File>
+      <Index>0x6d</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x2564" id="Kythal the Skull Generator">
+    <DisplayId>Kythal The Skull</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x17</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description></Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Kythal the Skull" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x3564" id="Kythal the Skull">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x17</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Skull Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>185</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Skull Proj 2</ObjectId>
+      <Speed>150</Speed>
+      <Damage>310</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+  </Object>
+  <Object type="0x3256" id="Skull Proj 1">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0x66</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x3257" id="Skull Proj 2">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0x65</Index>
+    </Texture>
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x2500" id="Minotaur Generator">
+    <DisplayId>Minotaur</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>0x48</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Big Tough Guy.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Minotaur" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x5642" id="Minotaur">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>0x48</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>110</Size>
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>52</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Blade</ObjectId>
+      <Damage>28</Damage>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <LifetimeMS>430</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blade</ObjectId>
+      <Damage>28</Damage>
+      <Speed>90</Speed>
+      <Size>100</Size>
+      <LifetimeMS>430</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+  <Object type="0x2501" id="Knight of the Lost Lands Generator">
+    <DisplayId>Knight of the Lost Lands</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Knight of the Lost Lands" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1643" id="Knight of the Lost Lands">
+    <Group>Knights of the Lost Lands</Group>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2502" id="Sea Horse Generator">
+    <DisplayId>Sea Horse</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own pet Sea Horse.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Sea Horsee" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1644" id="Sea Horsee">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2503" id="Sea Mare Generator">
+    <DisplayId>Sea Mare</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own pet Sea Mare.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Sea Maree" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1645" id="Sea Maree">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2504" id="Pentaract Eye Generator">
+    <DisplayId>Pentaract Eye</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xb5</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Your own pet Pentaract Eye.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Pentaract Eyee" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1646" id="Pentaract Eyee">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xb5</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2505" id="Bes Generator">
+    <DisplayId>Bes</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Bess" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x3647" id="Bess">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Darkness Bolt</ObjectId>
+      <Damage>240</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>180</Size>
+      <MultiHit />
+    </Projectile>
+
+    <Projectile id="1">
+      <ObjectId>Fire Boomerang</ObjectId>
+      <Damage>150</Damage>
+      <Speed>60</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="5">Armor Broken</ConditionEffect>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+
+    <Projectile id="2">
+      <ObjectId>Silver Shield</ObjectId>
+      <Damage>160</Damage>
+      <Speed>70</Speed>
+      <LifetimeMS>540</LifetimeMS>
+      <ConditionEffect duration="1.2">Stunned</ConditionEffect>
+      <Size>200</Size>
+    </Projectile>
+
+    <Projectile id="3">
+      <ObjectId>Dark Gray Spinner</ObjectId>
+      <Damage>0</Damage>
+      <Speed>120</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="10">Weak</ConditionEffect>
+      <MultiHit />
+      <Size>200</Size>
+    </Projectile>
+
+    <Projectile id="4">
+      <ObjectId>Silver Shield</ObjectId>
+      <Damage>60</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="1.2">Stunned</ConditionEffect>
+      <Size>200</Size>
+    </Projectile>
+  </Object>
+  <Object type="0x2506" id="Geb Generator">
+    <DisplayId>Geb</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Gebb" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1648" id="Gebb">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2507" id="Nut Generator">
+    <DisplayId>Nut</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Nutt" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x3649" id="Nutt">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+        <Projectile id="0">
+      <ObjectId>Darkness Bolt</ObjectId>
+      <Damage>180</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>120</Size>
+      <MultiHit />
+    </Projectile>
+
+    <Projectile id="1">
+      <ObjectId>Grey Boomerang</ObjectId>
+      <Damage>40</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="1">Quiet</ConditionEffect>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+
+    <Projectile id="2">
+      <ObjectId>Blue Boomerang</ObjectId>
+      <Damage>40</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="5">Weak</ConditionEffect>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+
+    <Projectile id="3">
+      <ObjectId>Green Boomerang</ObjectId>
+      <Damage>40</Damage>
+      <Speed>20</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="5">Slowed</ConditionEffect>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+
+    <Projectile id="4">
+      <ObjectId>Purple Boomerang</ObjectId>
+      <Damage>40</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="5">Blind</ConditionEffect>
+      <Boomerang />
+      <MultiHit />
+    </Projectile>
+
+    <Projectile id="5">
+      <ObjectId>Black Arrow</ObjectId>
+      <Damage>40</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="3">Armor Broken</ConditionEffect>
+      <Size>100</Size>
+    </Projectile>
+
+    <Projectile id="6">
+      <ObjectId>Spring Green Arrow</ObjectId>
+      <Damage>200</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="1.4">Paralyzed</ConditionEffect>
+      <MultiHit />
+      <Size>200</Size>
+    </Projectile>
+
+    <Projectile id="7">
+      <ObjectId>Dark Gray Spinner</ObjectId>
+      <Damage>0</Damage>
+      <Speed>120</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <ConditionEffect duration="10">Weak</ConditionEffect>
+      <MultiHit />
+      <Size>200</Size>
+    </Projectile>
+
+    <Projectile id="8">
+      <ObjectId>Ice Magic</ObjectId>
+      <Damage>50</Damage>
+      <Speed>100</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <ConditionEffect duration="1.0">Paralyzed</ConditionEffect>
+      <Size>120</Size>
+    </Projectile>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2508" id="Pyramid Artifact Generator">
+    <DisplayId>Pyramid Artifact</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x8dEncounters</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own Artifact of the Titans.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Pyramid Artifact P" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1650" id="Pyramid Artifact P">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x8dEncounters</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2509" id="Skull Shrine Generator">
+    <DisplayId>Skull Shrine</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x35</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Skull Shrine P" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1651" id="Skull Shrine P">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x35</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2510" id="Bunny Generator">
+    <DisplayId>Bunny</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars8x8rLow2</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own pet Bunny.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Bunnyy" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1652" id="Bunnyy">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rLow2</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2511" id="Beholder Generator">
+    <DisplayId>Lil' Beholder</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x05</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Beholderr" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1676" id="Beholderr">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x05</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2512" id="Cube Generator">
+    <DisplayId>Lil' Cube</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x37</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Cubee" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1654" id="Cubee">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x37</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2513" id="Angel Generator">
+    <DisplayId>Lil' Angel</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own Guardian.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Angell" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1655" id="Angell">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>18</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2514" id="Ninja Generator">
+    <DisplayId>Companion Ninja</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own Ninja.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Ninjaa" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1656" id="Ninjaa">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2515" id="Septavius Generator">
+    <DisplayId>Lil' Septavius</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x30</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Septaviuss" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1657" id="Septaviuss">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x30</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2516" id="Malphas Generator">
+    <DisplayId>Lil' Malphas</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Malphass" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1658" id="Malphass">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2517" id="Stheno Generator">
+    <DisplayId>Lil' Stheno</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x33</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Sthenos" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1659" id="Sthenos">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x33</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2520" id="Djinn Generator">
+    <DisplayId>Lil' Djinn</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10563452</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Djinnn" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1662" id="Djinnn">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10563452</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+
+  <Object type="0x2521" id="Companion Knight Generator">
+    <DisplayId>Companion Knight</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own Knight.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Knightt" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1663" id="Knightt">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2921" id="Pumpkin Head Generator">
+    <DisplayId>Pumpkin Head</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>23</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A real Nightmare.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Pumpkinnnnn" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1763" id="Pumpkinnnnn">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>23</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+
+  <Object type="0x2522" id="Paladin Generator">
+    <DisplayId>Companion Paladin</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own Paladin.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Paladinn" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1664" id="Paladinn">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+
+  <Object type="0x2523" id="Priest Generator">
+    <DisplayId>Companion Priest</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Your own Priest.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Priestt" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1665" id="Priestt">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2526" id="Shark Generator">
+    <DisplayId>Sharkman</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A sharkman minion.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="sharkmann" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1668" id="sharkmann">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>100</Size>
+  </Object>
+  <Object type="0x2528" id="Sphinx Generator">
+    <DisplayId>Sphinx</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="sphinxxx" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x3670" id="sphinxxx">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+    <ShadowSize>120</ShadowSize>
+    <Projectile id="0">
+      <ObjectId>Fireball</ObjectId>
+      <Speed>80</Speed>
+      <Damage>85</Damage>
+      <Size>110</Size>
+      <LifetimeMS>1350</LifetimeMS>
+      <ConditionEffect duration="7">Weak</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Zedshot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>150</Damage>
+      <Size>130</Size>
+      <LifetimeMS>1900</LifetimeMS>
+      <ConditionEffect duration="4">Blind</ConditionEffect>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Hellfire</ObjectId>
+      <Speed>67</Speed>
+      <Damage>115</Damage>
+      <Size>125</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <MultiHit />
+      <PassesCover />
+    </Projectile>
+  </Object>
+
+
+  <Object type="0x2529" id="Phoenix Generator">
+    <DisplayId>Phoenix</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Phoenixx" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1671" id="Phoenixx">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+
+  <Object type="0x2530" id="Horrific Creation Generator">
+    <DisplayId>Horrific Creation</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Horrificc" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1672" id="Horrificc">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+
+  <Object type="0x2531" id="Limon Generator">
+    <DisplayId>Limon</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x36</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Limonn" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1673" id="Limonn">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x36</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+
+  <Object type="0x2532" id="Red Demon Generator">
+    <DisplayId>Red Demon</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>0x41</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Reddemonn" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1674" id="Reddemonn">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>0x41</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+
+  <Object type="0x2533" id="Monkey Generator">
+    <DisplayId>Monkey</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiChar28x8</File>
+      <Index>0x0b</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A pet monkey.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Monkeyn" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1675" id="Monkeyn">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar28x8</File>
+      <Index>0x0b</Index>
+    </Texture>
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x2536" id="Great Coil Snake Generator">
+    <DisplayId>Grand Coil Snake</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Coill Snake" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1677" id="Coill Snake">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Size>110</Size>
+    <Projectile id="0">
+      <ObjectId>Snakeeee</ObjectId>
+      <Damage>0</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>500</LifetimeMS>
+      <Boomerang/>
+      <MultiHit/>
+      <Size>100</Size>
+    </Projectile>
+  </Object>
+  <Object type="0x202f" id="Snakeeee">
+    <Class>Projectile</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <Rotation>50</Rotation>
+  </Object>
+
+  <!-- Pets -->
+  <!--
+  <Object type="0x1542" id="Lil' Cube God Generator">
+    <DisplayId>Lil' Cube God</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x37</Index>
+    </Texture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Cube Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1689" id="Cube Pet">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x37</Index>
+    </Texture>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Dark Blue Magic</ObjectId>
+      <Speed>100</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>2400</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Blue Bolt</ObjectId>
+      <Speed>80</Speed>
+      <Damage>150</Damage>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x1543" id="Lil' Skull Shrine Generator">
+    <DisplayId>Lil' Skull Shrine</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x35</Index>
+    </Texture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Skull Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1690" id="Skull Pet">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x35</Index>
+    </Texture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x1544" id="Lil' Lord Generator">
+    <DisplayId>Lil' Lord of the Lost Lands</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Lord Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1644" id="Lord Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x1545" id="Lil' Sphinx Generator">
+    <DisplayId>Lil' Sphinx</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Sphinx Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1645" id="Sphinx Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x1546" id="Lil' Bes Generator">
+    <DisplayId>Lil' Bes</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Bes Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1646" id="Bes Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x1547" id="Lil' Geb Generator">
+    <DisplayId>Lil' Geb</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Geb Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1647" id="Geb Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x1548" id="Lil' Nut Generator">
+    <DisplayId>Lil' Nut</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Nut Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1648" id="Nut Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  -->
+  <Object type="0x1549" id="Lil' Thessal Generator">
+    <DisplayId>Lil' Thessal</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+
+    <Activate objectId="Thessal Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1649" id="Thessal Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <!--
+  <Object type="0x1550" id="Lil' Limon Generator">
+    <DisplayId>Lil' Limon</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x36</Index>
+    </Texture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Limon Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1650" id="Limon Pet">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x36</Index>
+    </Texture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x1551" id="Lil' Stheno Generator">
+    <DisplayId>Lil' Stheno</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x33</Index>
+    </Texture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Stheno Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1651" id="Stheno Pet">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x33</Index>
+    </Texture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  
+  <Object type="0x1552" id="Lil' Malphas Generator">
+    <DisplayId>Lil' Malphas</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    
+    <Activate objectId="Malphas Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x1652" id="Malphas Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="MP">
+      <Min />
+      <Max />
+      <Cooldown />
+    </Tag>
+    <Tag name="Dmg">
+      <Min />
+      <Max />
+      <Range />
+      <Cooldown />
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  -->
+  <Object type="0x1553" id="White Bag Generator">
+    <DisplayId>White Bag</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0x94</Index>
+    </Texture>
+    <Size>25</Size>
+    <SlotType>10</SlotType>
+    <Description>Cause we didn't have enough pets</Description>
+    <Sound>spell/light_heal</Sound>
+    <Consumable />
+    <Activate objectId="White Bag Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>20</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1653" id="White Bag Pet">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0x94</Index>
+    </Texture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min>100</Min>
+      <Max>150</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Tag name="MP">
+      <Min>60</Min>
+      <Max>120</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Tag name="Dmg">
+      <Min>100</Min>
+      <Max>500</Max>
+      <Range>20</Range>
+      <Cooldown>500</Cooldown>
+    </Tag>
+    <Tag name="Speed">
+      <Value>20</Value>
+    </Tag>
+    <Size>75</Size>
+  </Object>
+  <!-- Donor Pets -->
+  <Object type="0x1557" id="Astro's Griffin Generator">
+    <DisplayId>Griffin</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>921191098</Id>
+    </RemoteTexture>
+    
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>Astro's little helper.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Astro's Griffin" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>200</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1685" id="Astro's Griffin">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>921191098</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap />
+    <Size>75</Size>
+    <ShadowSize>80</ShadowSize>
+  </Object>
+  <!-- End of Donor Pets -->
+
+  <!-- Start of Team Pets -->
+  <Object type="0x1556" id="Dallas's Pet Generator">
+    <DisplayId>Blue Landfish</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>920755103</Id>
+    </RemoteTexture>
+    
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>:D</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Dallas's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>200</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1684" id="Dallas's Pet">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>920755103</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap />
+    <Size>75</Size>
+    <ShadowSize>80</ShadowSize>
+  </Object>
+
+  <Object type="0x1558" id="Scootaloo Generator">
+    <DisplayId>Scootaloo</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6077797936136192</Id>
+    </RemoteTexture>
+    
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>trav's pone</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Scootaloo" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1686" id="Scootaloo">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>106</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>80</Size>
+    <ShadowSize>80</ShadowSize>
+  </Object>
+  <Object type="0x1559" id="Josh's Pet Generator">
+    <DisplayId>Square Root</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4971186618368000</Id>
+    </RemoteTexture>
+    
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>:D</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Josh's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>70</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1680" id="Josh's Pet">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4971186618368000</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap />
+    <Size>75</Size>
+    <ShadowSize>80</ShadowSize>
+  </Object>
+  <Object type="0x1560" id="Skeletal Guardian Generator">
+    <DisplayId>ProHack's Pet Generator</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x13</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>:D</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Skeletal Guardian Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>70</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1681" id="Skeletal Guardian Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dMountains1</File>
+      <Index>0x13</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>75</Size>
+    <ShadowSize>80</ShadowSize>
+  </Object>
+  <Object type="0x1561" id="Knight Generator">
+    <DisplayId>Knight</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>36</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>:D</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Knight Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1682" id="Knight Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>36</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>60</Size>
+    <ShadowSize>60</ShadowSize>
+  </Object>
+  <Object type="0x1562" id="Lunar's Phoenix Generator">
+    <DisplayId>Phoenix</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10045528</Id>
+    </RemoteTexture>
+    
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>Don't forget about me. -Astro  (We will never forget any of you! -Dragonlord3344)</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Lunar's Phoenix" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>2</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1683" id="Lunar's Phoenix">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10045528</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap />
+    <Size>60</Size>
+    <ShadowSize>75</ShadowSize>
+  </Object>
+  <Object type="0x1563" id="Twilight Generator">
+    <DisplayId>Phoenix</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4749920137379840</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>Tlp's pone</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Twilight Sparkle" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1687" id="Twilight Sparkle">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4749920137379840</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap />
+    <Size>100</Size>
+    <Projectile id="0">
+      <ObjectId>Rainbow Magic Star</ObjectId>
+      <Speed>130</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>150</MaxDamage>
+      <LifetimeMS>700</LifetimeMS>
+    </Projectile>
+    <ShadowSize>75</ShadowSize>
+  </Object>
+  <Object type="0x1555" id="KingSlime Generator">
+    <DisplayId>King Slime</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>107</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A unique creature that is said to have been created in a failed laboratory experiment.</Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse/>
+    <VaultItem/>
+    <Soulbound/>
+    <Activate objectId="KingSlime" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x1691" id="KingSlime">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>107</Index>
+    </AnimatedTexture>
+    <NoMiniMap/>
+    <Tag name="HP">
+      <Min>75</Min>
+      <Max>75</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Tag name="MP">
+      <Min>55</Min>
+      <Max>55</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Size>100</Size>
+    <ShadowSize>100</ShadowSize>
+  </Object>
+  <!-- End of Team Pets -->
+
+
+  <Object type="0x6001" id="Dinosaur's Pet Generator">
+    <DisplayId>Dinosaur's Thessal</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Dinosaur's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x6101" id="Dinosaur's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>16</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min>25</Min>
+      <Max>25</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Tag name="MP">
+      <Min>15</Min>
+      <Max>15</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Size>75</Size>
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>75</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x60ff" id="Aceaku's Pet Generator">
+    <DisplayId>Aceaku's Pokeball</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4712140350947328</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Aceaku's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>50</Price>
+    </Shop>
+  </Object>
+  <Object type="0x61ff" id="Aceaku's Pet">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4712140350947328</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap />
+    <Tag name="HP">
+      <Min>35</Min>
+      <Max>35</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Tag name="MP">
+      <Min>20</Min>
+      <Max>20</Max>
+      <Cooldown>1500</Cooldown>
+    </Tag>
+    <Size>75</Size>
+  </Object>
+
+
+  <Object type="0x7565" id="Cerberus Skull Generator">
+    <DisplayId>Cerberus Skull</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5359574336929792</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>One of the skulls of Cerberus.</Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Cerberus Skull" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x7699" id="Cerberus Skull">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5359574336929792</Id>
+    </RemoteTexture>
+    
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Small skul Proj 1</ObjectId>
+      <Speed>300</Speed>
+      <Damage>185</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large skul Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>310</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x45ca" id="Small skul Proj 1">
+    <Class>Projectile</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5945738800398336</Id>
+    </RemoteTexture>
+    
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x45cb" id="Large skul Proj 1">
+    <Class>Projectile</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5945738800398336</Id>
+    </RemoteTexture>
+
+    <Rotation>90</Rotation>
+  </Object>
+
+  <Object type="0x7465" id="Support Bot Generator">
+    <DisplayId>Support Bot</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6575055897100288</Id>
+    </RemoteTexture>
+
+    <SlotType>10</SlotType>
+    <Description>A bot that will support whatever you do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Support Bot" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>20</Price>
+    </Shop>
+  </Object>
+  <Object type="0x7599" id="Support Bot">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6575055897100288</Id>
+    </RemoteTexture>
+    
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+    <NoMiniMap />
+  </Object>
+
+  <Object type="0x7555" id="Zenco Generator">
+    <DisplayId>Zenco The Undead God</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6646544889544704</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do.</Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Zenco The Undead God" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+  </Object>
+  <Object type="0x7659" id="Zenco The Undead God">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6646544889544704</Id>
+    </RemoteTexture>
+    
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Small skul Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>185</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large skul Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>310</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+
+  <Object type="0x2595" id="Cookie Generator">
+    <DisplayId>Pancookie</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>20482145</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>Every evil boss creates miniature versions of himself.  It's just something they do, but Pancake makes Cookies</Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <VaultItem />
+    <Activate objectId="Cookiee" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x5679" id="Cookiee">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>20482145</Id>
+    </RemoteTexture>
+    
+    <Size>100</Size>
+    <ShadowSize>120</ShadowSize>
+    <NoMiniMap />
+    <Z>0.20</Z>
+    <Flying/>
+    <Projectile id="0">
+      <ObjectId>Small Cookie Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>285</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Large Cookie Proj 1</ObjectId>
+      <Speed>150</Speed>
+      <Damage>410</Damage>
+      <LifetimeMS>1800</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+  </Object>
+  <Object type="0x5510" id="Small Cookie Proj 1">
+    <Class>Projectile</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>20482145</Id>
+    </RemoteTexture>
+    
+    <Rotation>90</Rotation>
+  </Object>
+  <Object type="0x5511" id="Large Cookie Proj 1">
+    <Class>Projectile</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>20482145</Id>
+    </RemoteTexture>
+    
+    <Rotation>90</Rotation>
+  </Object>
+
+  <Object type="0x4442" id="Doomed Nature Generator">
+    <DisplayId>Doomed Nature Beast</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10618159</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>A Doomed Nature Beast is born in the guild hall of Doom Incorporated, from all the corpses and dark energy that is naturally flowing there.</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse/>
+    <Soulbound/>
+    <VaultItem/>
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Doomed Nature Beast" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x4441" id="Doomed Nature Beast">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>10618159</Id>
+    </RemoteTexture>
+    
+    <NoMiniMap/>
+    <Size>80</Size>
+  </Object>
+  <Object type="0x7f50" id="Cotton's Pet Generator">
+    <DisplayId>Cotton's Dwarf Priest wearing T2 Priest Armor</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5402915952918528</Id>
+    </RemoteTexture>
+
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <ScaleValue>3</ScaleValue>
+    <InvUse />
+    <Soulbound />
+    <VaultItem />
+    <Activate objectId="Cotton's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+    <!--
+    <Shop>
+      <Name>donorpets</Name>
+      <Price>100</Price>
+    </Shop>
+    -->
+  </Object>
+  <Object type="0x7f60" id="Cotton's Pet">
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5402915952918528</Id>
+    </RemoteTexture>
+
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>200</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7f51" id="Coolio's Pet Generator">
+    <DisplayId>Coolio's Beer God</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4615574032220160</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Coolio's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f61" id="Coolio's Pet">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4615574032220160</Id>
+      <Animated/>
+    </RemoteTexture>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>350</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+    <Size>75</Size>
+  </Object>
+  <Object type="0x7f52" id="Willper's Pet Generator">
+    <DisplayId>Willper's White Loot Bag</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0x94</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Activate objectId="Willper's White Bag" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f62" id="Willper's White Bag">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj4</File>
+      <Index>0x94</Index>
+    </Texture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Rainbow Magic Star</ObjectId>
+      <Damage>75</Damage>
+      <Size>75</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>550</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7f53" id="Obama's Pet Generator">
+    <DisplayId>Obama's Phoenix Lord</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Obama's Phoenix Lord" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f63" id="Obama's Phoenix Lord">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x2a</Index>
+    </Texture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Fire Spinner</ObjectId>
+      <Damage>75</Damage>
+      <Size>75</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>550</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7f54" id="xXBottedXx's Pet Generator">
+    <DisplayId>xXBottedXx's Candy Gnome</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="xXBottedXx's Candy Gnome" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f64" id="xXBottedXx's Candy Gnome">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>44</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Magic Sparkle</ObjectId>
+      <Damage>125</Damage>
+      <Size>75</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7f55" id="Mike's Pet Generator">
+    <DisplayId>Mike's Goblin Wizard</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars8x8rLow1</File>
+      <Index>0x0b</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Mike's Goblin" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f65" id="Mike's Goblin">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rLow1</File>
+      <Index>0x0b</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <!--55 MP Heal because he said he wanted to put the attack to MP heal.-->
+  </Object>
+  <Object type="0x7f56" id="LightningI's Pet Generator">
+    <DisplayId>LightningI's lil' Geb</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="LightningI's Geb" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f66" id="LightningI's Geb">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>11</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Darkness Bolt</ObjectId>
+      <Damage>75</Damage>
+      <Size>75</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7f57" id="SuperRyGuy's Pet Generator">
+    <DisplayId>SuperRyGuy's White Bag Troll</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6021955587145728</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="SuperRyGuy's Troll" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f67" id="SuperRyGuy's Troll">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6021955587145728</Id>
+    </RemoteTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>50</Damage>
+      <Size>75</Size>
+      <Speed>120</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7f58" id="Levelx100's Pet Generator">
+    <DisplayId>Levelx100's lil' Bes</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Levelx100's lil' Bes" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f68" id="Levelx100's lil' Bes">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>12</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Darkness Bolt</ObjectId>
+      <Damage>75</Damage>
+      <Size>80</Size>
+      <Speed>240</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7f59" id="Versified's Pet Generator">
+    <DisplayId>Versified's Pirate</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6276151079075840</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Versified's Pirate" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f69" id="Versified's Pirate">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>6276151079075840</Id>
+    </RemoteTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>80</Damage>
+      <Size>80</Size>
+      <Speed>80</Speed>
+      <LifetimeMS>500</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a50" id="Filenub's Slurp Generator">
+    <DisplayId>Filenub's Slurp</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>0x0f</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Filenub's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f70" id="Filenub's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rPets1</File>
+      <Index>0x0f</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Purple Spit</ObjectId>
+      <Damage>350</Damage>
+      <Size>80</Size>
+      <Speed>180</Speed>
+      <LifetimeMS>850</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a51" id="Lelipwnnoobs's Pet Generator">
+    <DisplayId>lelipwnnoob's Blue Limon</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4705503215091712</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Lelipwnnoob's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f71" id="Lelipwnnoob's Pet">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4705503215091712</Id>
+    </RemoteTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Blue Boomerang</ObjectId>
+      <Damage>1</Damage>
+      <Size>75</Size>
+      <Speed>180</Speed>
+      <LifetimeMS>850</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a52" id="IFoxy's Pet Generator">
+    <DisplayId>IFoxy's sphinx</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="IFoxy's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f72" id="IFoxy's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>200</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a53" id="Purple's Pet Generator">
+    <DisplayId>Tetsuya's Stone Guardian</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Purple's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f73" id="Purple's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>20</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>200</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a54" id="Blue's Pet Generator">
+    <DisplayId>Blue's Nut</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Blue's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f74" id="Blue's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Rimmed Mystic Shot</ObjectId>
+      <Damage>125</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a55" id="Recluse's Pet Generator">
+    <DisplayId>Recluse's Kalle</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Activate objectId="Recluse's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f75" id="Recluse's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>players</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x7a56" id="Stefive's Pet Generator">
+    <DisplayId>Stevefive's Frog</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4533382920798208</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Activate objectId="Stefive's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f76" id="Stefive's Pet">
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>4533382920798208</Id>
+      <Animated/>
+    </RemoteTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>75</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a57" id="Iole's Pet Generator">
+    <DisplayId>Iole's Limon</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x36</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Iole's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f77" id="Iole's Pet">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x36</Index>
+    </Texture>
+    <Size>75</Size>
+    <NoMiniMap />
+    <Projectile id="0">
+      <ObjectId>Ice Triangle</ObjectId>
+      <Damage>75</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a58" id="Bricksix's Pet Generator">
+    <DisplayId>Bricksix's Lord of the Lost Lands</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <ScaleValue>3</ScaleValue>
+    <Activate objectId="Bricksix's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f78" id="Bricksix's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters</File>
+      <Index>14</Index>
+    </AnimatedTexture>
+    <Size>75</Size>
+    <NoMiniMap />
+  </Object>
+  <Object type="0x7a59" id="ZGPepsi's Pet Generator">
+    <DisplayId>ZGPepsi's Sheep</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Activate objectId="ZGPepsi's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f79" id="ZGPepsi's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>75</Size>
+  </Object>
+  <Object type="0x7a60" id="NinjaCookie's Pet Generator">
+    <DisplayId>NinjaCookie's Stone Guardian</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Activate objectId="NinjaCookie's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f80" id="NinjaCookie's Pet">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <NoMiniMap />
+    <Size>75</Size>
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>50</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7a61" id="Musashi's Pet Generator">
+    <DisplayId>Musashi's Oryx</DisplayId>
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>0x54</Index>
+    </Texture>
+    <ScaleValue>3</ScaleValue>
+    <SlotType>10</SlotType>
+    <Description>A pet received by donating to the server!</Description>
+    <Sound>spell/light_heal</Sound>
+    <InvUse />
+    <VaultItem />
+    <Soulbound />
+    <Activate objectId="Musashi's Pet" cooldown="10">PermaPet</Activate>
+    <OldSound>use_potion</OldSound>
+  </Object>
+  <Object type="0x7f81" id="Musashi's Pet">
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x16</File>
+      <Index>0x54</Index>
+    </Texture>
+    <NoMiniMap />
+    <Size>75</Size>
+    <Projectile id="0">
+      <ObjectId>White Flame</ObjectId>
+      <Damage>175</Damage>
+      <Size>80</Size>
+      <Speed>160</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+  </Object>
+</Remote>

@@ -1,0 +1,320 @@
+
+<Remote>
+
+  <Object type="0x990" id="Shattered Skull">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>91</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x16c</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A broken skull.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x989" id="Timber">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>89</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x16d</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x961" id="Quarry Stone">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>89</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x16e</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x962" id="Rare Ore">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>89</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x16f</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x963" id="Magical Powder">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x170</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x960" id="Candy Dust">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x172</Index>
+    </Texture>
+    
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x965" id="Fire Gem">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x171</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A burning gem.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x970" id="Broken Sword">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x173</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x969" id="Raw Power">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>91</tier>
+    <ScaleValue>3</ScaleValue>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>20036182</Id>
+    </RemoteTexture>
+    
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x968" id="Purified Doom Saliva">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x174</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x967" id="Trapped Soul">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>91</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x175</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x966" id="Demon Blood">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <ScaleValue>3</ScaleValue>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>13838372</Id>
+    </RemoteTexture>
+    
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x964" id="Scroll of Zeal">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>92</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x176</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+
+
+
+  <Object type="0x973" id="Owl Feather">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <ScaleValue>3</ScaleValue>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>15445057</Id>
+    </RemoteTexture>
+    
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x972" id="Phoenix Feather">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x177</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x971" id="Feather">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <ScaleValue>3</ScaleValue>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>110246007</Id>
+    </RemoteTexture>
+
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+
+  <Object type="0x859" id="Shattered Prism">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x178</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x858" id="Shattered Orb">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x179</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x857" id="Shattered Amulet">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>91</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x17a</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x856" id="Shattered Rune of Oryx">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>91</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x17b</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x855" id="Broken Glass Sword">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>90</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x17c</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x848" id="Broken Oryx Armor">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>91</tier>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x17d</Index>
+    </Texture>
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  <Object type="0x849" id="Eternal Elements">
+    <Class>Equipment</Class>
+    <Item/>
+    <tier>91</tier>
+    <ScaleValue>3</ScaleValue>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>21281370</Id>
+    </RemoteTexture>
+
+    <SlotType>0</SlotType>
+    <Description>A forgeable material.</Description>
+    <BagType>4</BagType>
+  </Object>
+
+  
+</Remote>

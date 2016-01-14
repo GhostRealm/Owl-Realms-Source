@@ -1,0 +1,625 @@
+<Remote>
+
+  <Object type="0x6720" id="Elder Ocean Trench Portal">
+    <Class>Portal</Class>
+    <IntergamePortal/>
+    <DungeonName>Elder Ocean Trench</DungeonName>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>988954579</Id>
+    </RemoteTexture>
+    
+  </Object>
+
+  <Object type="0x6716" id="Elder Ocean Trench Key">
+    <Class>Equipment</Class>
+    <Item/>
+<!--    <Key>1000</Key>  
+    <Shop>
+      <Name>donorkeys</Name>
+      <Price>350</Price>
+    </Shop>
+    -->
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>148269362</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to an Ocean Trench.</Description>
+    <Sound>use_key</Sound>
+    <Consumable/>
+    <Activate id="Elder Ocean Trench Portal">Create</Activate>
+    <OldSound>use_key</OldSound>
+  </Object>
+
+
+  <Object type="0x7700" id="Elder Fishman Warrior">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/elves_death</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+
+    <MaxHitPoints>10000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>FishWarrior Spear</ObjectId>
+      <Speed>50</Speed>
+      <Damage>650</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Fishman Boomerang</ObjectId>
+      <Speed>50</Speed>
+      <Damage>800</Damage>
+      <Size>130</Size>
+      <LifetimeMS>2200</LifetimeMS>
+      <ConditionEffect duration="3.4">Confused</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Coral Shot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>450</Damage>
+      <Size>110</Size>
+      <LifetimeMS>1600</LifetimeMS>
+    </Projectile>
+
+    <Size>150</Size>
+    <Defense>520</Defense>
+
+
+  </Object>
+
+  <Object type="0x7701" id="Elder Deep Sea Beast Spawner">
+    <Group>Ocean Trench</Group>
+    <Class>Character</Class>
+    <StasisImmune />
+    <ShadowSize>0</ShadowSize>
+    <Size>0</Size>
+    <Enemy />
+    <NoMiniMap />
+
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/dwarves_death</DeathSound>
+
+    <MaxHitPoints>800</MaxHitPoints>
+    <XpMult>0.0</XpMult>
+    <Size>110</Size>
+    <Defense>50</Defense>
+
+
+  </Object>
+
+  <Object type="0x7702" id="Elder Coral Bomb Big">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>15</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/dark_elves_death</DeathSound>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <XpMult>0.0</XpMult>
+    <Size>220</Size>
+    <Defense>2000</Defense>
+    <Projectile id="0">
+      <ObjectId>Coral Spike</ObjectId>
+      <Speed>55</Speed>
+      <Damage>290</Damage>
+      <Size>100</Size>
+      <LifetimeMS>800</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0x7703" id="Elder Coral Bomb Small">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/dark_elves_death</DeathSound>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <XpMult>0.0</XpMult>
+    <Size>90</Size>
+    <Defense>200</Defense>
+    <Projectile id="0">
+      <ObjectId>Coral Spike</ObjectId>
+      <Speed>45</Speed>
+      <Damage>290</Damage>
+      <Size>80</Size>
+      <LifetimeMS>800</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x7704" id="Elder Thessal the Mermaid Goddess Wounded">
+    <DisplayId>Thessal the Mermaid Goddess</DisplayId>
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <StasisImmune />
+    <StunImmume />
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>992396809</Id>
+    </RemoteTexture>
+
+    <AltTexture id="1">
+      <RemoteTexture>
+        <Instance>draw</Instance>
+        <Id>992396809</Id>
+      </RemoteTexture>
+    </AltTexture>
+
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+
+    <MaxHitPoints>10000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+    <God />
+    <Quest />
+    <PerRealmMax>1</PerRealmMax>
+    <Level>20</Level>
+    <XpMult>1</XpMult>
+    <Size>240</Size>
+    <Defense>60</Defense>
+    <NoArticle />
+
+    <Projectile id="0">
+      <ObjectId>Thunder Swirl</ObjectId>
+      <Speed>55</Speed>
+      <Damage>1000</Damage>
+      <Size>110</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <ConditionEffect duration="2.4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Trident</ObjectId>
+      <Speed>70</Speed>
+      <Damage>650</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Super Trident</ObjectId>
+      <Speed>60</Speed>
+      <Damage>1000</Damage>
+      <Size>110</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Yellow Wall</ObjectId>
+      <Speed>60</Speed>
+      <Damage>1200</Damage>
+      <Size>160</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x7705" id="Elder Coral Gift">
+    <Group>Ocean Trench</Group>
+    <Class>Character</Class>
+    <StasisImmune />
+    <Enemy />
+    <NoMiniMap />
+
+    <MaxHitPoints>12000</MaxHitPoints>
+    <XpMult>0.1</XpMult>
+    <Size>140</Size>
+    <Defense>50</Defense>
+
+    <Texture>
+      <File>lofiEnvironment3</File>
+      <Index>0x22</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiEnvironment3</File>
+        <Index>0x23</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>lofiEnvironment3</File>
+        <Index>0x24</Index>
+      </Texture>
+    </AltTexture>
+
+    <HitSound>monster/djinn_hit</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+
+
+  </Object>
+
+  <Object type="0x7706" id="Elder Thessal the Mermaid Goddess">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>992396809</Id>
+    </RemoteTexture>
+
+    <HitSound>monster/medusa_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+
+    <MaxHitPoints>690000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+    <God />
+    <StasisImmune />
+    <StunImmume />
+    <Quest />
+    <PerRealmMax>1</PerRealmMax>
+    <Level>20</Level>
+    <XpMult>1</XpMult>
+    <Size>240</Size>
+    <Defense>600</Defense>
+    <NoArticle />
+
+    <Projectile id="0">
+      <ObjectId>Thunder Swirl</ObjectId>
+      <Speed>55</Speed>
+      <Damage>100</Damage>
+      <Size>110</Size>
+      <LifetimeMS>1600</LifetimeMS>
+      <ConditionEffect duration="2.4">Armor Broken</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Trident</ObjectId>
+      <Speed>70</Speed>
+      <Damage>650</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Super Trident</ObjectId>
+      <Speed>60</Speed>
+      <Damage>100</Damage>
+      <Size>110</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Yellow Wall</ObjectId>
+      <Speed>60</Speed>
+      <Damage>100</Damage>
+      <Size>160</Size>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x7707" id="Elder Deep Sea Beast">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>10</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/abyss_demons_hit</HitSound>
+    <DeathSound>monster/abyss_brutes_death</DeathSound>
+
+    <MaxHitPoints>150000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+    <StasisImmune />
+    <PerRealmMax>1</PerRealmMax>
+    <XpMult>0.3</XpMult>
+    <Size>90</Size>
+    <Defense>600</Defense>
+
+    <Projectile id="0">
+      <ObjectId>Deep Sea Blast</ObjectId>
+      <Speed>30</Speed>
+      <Damage>120</Damage>
+      <Size>60</Size>
+      <LifetimeMS>600</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Deep Sea Blast</ObjectId>
+      <Speed>42</Speed>
+      <Damage>210</Damage>
+      <Size>88</Size>
+      <LifetimeMS>600</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Deep Sea Blast</ObjectId>
+      <Speed>55</Speed>
+      <Damage>370</Damage>
+      <Size>154</Size>
+      <LifetimeMS>600</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Deep Sea Blast</ObjectId>
+      <Speed>70</Speed>
+      <Damage>640</Damage>
+      <Size>270</Size>
+      <LifetimeMS>600</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x7708" id="Elder Fishman">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/dragons_hit</HitSound>
+    <DeathSound>monster/flaming_skulls_death</DeathSound>
+
+    <MaxHitPoints>25000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>Fishman Spear</ObjectId>
+      <Speed>55</Speed>
+      <Damage>190</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Fishman Boomerang</ObjectId>
+      <Speed>70</Speed>
+      <Damage>650</Damage>
+      <Size>100</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="1.8">Confused</ConditionEffect>
+    </Projectile>
+
+    <Size>160</Size>
+    <Defense>400</Defense>
+
+
+  </Object>
+
+  <Object type="0x7709" id="Elder Sea Horse">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>26077305</Id>
+    </RemoteTexture>
+
+    <HitSound>monster/elves_death</HitSound>
+    <DeathSound>monster/night_elves_death</DeathSound>
+
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Flying />
+    <Z>0.26</Z>
+    <ShadowSize>100</ShadowSize>
+
+    <Projectile id="0">
+      <ObjectId>Bubble</ObjectId>
+      <Speed>35</Speed>
+      <Damage>400</Damage>
+      <Size>60</Size>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+
+    <Size>80</Size>
+    <Defense>200</Defense>
+
+
+  </Object>
+
+  <Object type="0x770a" id="Elder Sea Mare">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>13</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/ogres_hit</HitSound>
+    <DeathSound>monster/medusa_death</DeathSound>
+
+    <MaxHitPoints>60000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>Squid Shot</ObjectId>
+      <Speed>50</Speed>
+      <Damage>400</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1400</LifetimeMS>
+    </Projectile>
+
+    <Projectile id="1">
+      <ObjectId>Sea Horse Spinner</ObjectId>
+      <Speed>35</Speed>
+      <Damage>1000</Damage>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="1.6">Paralyzed</ConditionEffect>
+    </Projectile>
+
+    <Size>140</Size>
+    <Defense>600</Defense>
+
+
+  </Object>
+
+  <Object type="0x770b" id="Elder Ink Bubble">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/slimes_hit</HitSound>
+    <DeathSound>monster/slimes_death</DeathSound>
+
+    <MaxHitPoints>20000</MaxHitPoints>
+    <Flying />
+
+    <Projectile id="0">
+      <ObjectId>Ink Blot</ObjectId>
+      <Speed>10</Speed>
+      <Damage>500</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <MultiHit />
+      <ConditionEffect duration="3">Blind</ConditionEffect>
+    </Projectile>
+
+    <Size>190</Size>
+    <Defense>400</Defense>
+    <XpMult>0</XpMult>
+
+
+  </Object>
+
+  <Object type="0x770c" id="Elder Giant Squid">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>17</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/spider_queen_hit</HitSound>
+    <DeathSound>monster/scorpions_death</DeathSound>
+
+    <MaxHitPoints>60000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>Squid Sucker</ObjectId>
+      <Speed>0</Speed>
+      <Damage>850</Damage>
+      <Size>80</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Squid Shot</ObjectId>
+      <Speed>55</Speed>
+      <Damage>500</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+
+    <Size>190</Size>
+    <Defense>400</Defense>
+
+
+  </Object>
+
+  <Object type="0x770d" id="Elder Sea Slurp Home">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x16</File>
+      <Index>0x0b</Index>
+    </Texture>
+
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiEnvironment2</File>
+        <Index>0x6d</Index>
+      </Texture>
+    </AltTexture>
+
+    <HitSound>monster/trees_hit</HitSound>
+    <DeathSound>monster/stone_walls_hit</DeathSound>
+
+    <MaxHitPoints>50000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>Oryx Insect Sting</ObjectId>
+      <Speed>65</Speed>
+      <Damage>550</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Oryx Insect Sting Status</ObjectId>
+      <Speed>50</Speed>
+      <Damage>600</Damage>
+      <Size>120</Size>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+
+    <Size>190</Size>
+    <Defense>400</Defense>
+
+
+  </Object>
+
+  <Object type="0x770e" id="Elder Grey Sea Slurp">
+    <Group>Ocean Trench</Group>
+    <Enemy />
+    <Class>Character</Class>
+
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>19</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/cubes_hit</HitSound>
+    <DeathSound>monster/blobs_death</DeathSound>
+
+    <MaxHitPoints>10000</MaxHitPoints>
+
+    <Projectile id="0">
+      <ObjectId>Purple Spit</ObjectId>
+      <Speed>60</Speed>
+      <Damage>400</Damage>
+      <Size>80</Size>
+      <LifetimeMS>1400</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Yellow Wave</ObjectId>
+      <Speed>60</Speed>
+      <Damage>400</Damage>
+      <Size>100</Size>
+      <LifetimeMS>800</LifetimeMS>
+    </Projectile>
+
+    <Size>140</Size>
+    <Defense>200</Defense>
+    <XpMult>0.05</XpMult>
+
+
+  </Object>
+  
+</Remote>

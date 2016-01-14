@@ -1,0 +1,99 @@
+
+<Remote>
+
+  <Object type="0x6a38" id="Elder Beach Portal">
+    <Class>Portal</Class>
+    <IntergamePortal/>
+    <DungeonName>Elder Beach Zone</DungeonName>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>1081577458</Id>
+    </RemoteTexture>
+    
+  </Object>
+
+  <Object type="0x6a36" id="Elder Beach Key">
+    <Class>Equipment</Class>
+    <Item/>
+<!--    <Key>2000</Key>  
+    <Shop>
+      <Name>donorkeys</Name>
+      <Price>100</Price>
+    </Shop>
+    -->
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>24362609</Id>
+    </RemoteTexture>
+    
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to a Elder Jungle.</Description>
+    <Sound>use_key</Sound>
+    <Consumable/>
+    <Activate id="Elder Jungle Portal">Create</Activate>
+    <OldSound>use_key</OldSound>
+  </Object>
+
+  
+
+  <Object type="0x7e56" id="Elder Masked Party God">
+    <Enemy />
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>183307176</Id>
+    </RemoteTexture>
+
+    <AltTexture id="1">
+      <RemoteTexture>
+        <Instance>draw</Instance>
+        <Id>183307176</Id>
+      </RemoteTexture>
+    </AltTexture>
+    <AltTexture id="2">
+      <RemoteTexture>
+        <Instance>draw</Instance>
+        <Id>183307176</Id>
+      </RemoteTexture>
+    </AltTexture>
+    <AltTexture id="3">
+      <RemoteTexture>
+        <Instance>draw</Instance>
+        <Id>183307176</Id>
+      </RemoteTexture>
+    </AltTexture>
+
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>monster/dark_elves_death</DeathSound>
+    <Size>140</Size>
+    <ShadowSize>70</ShadowSize>
+    <MaxHitPoints>30000</MaxHitPoints>
+    <Defense>80</Defense>
+
+
+  </Object>
+
+
+  <Object type="0x7e55" id="Elder Beach Bum">
+    <Enemy />
+    <Class>Character</Class>
+
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>23019823</Id>
+    </RemoteTexture>
+
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>monster/dark_elves_death</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>100</ShadowSize>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>100</Defense>
+
+
+  </Object>
+  
+  
+</Remote>

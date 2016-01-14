@@ -1,0 +1,405 @@
+
+<Remote>
+
+  <Object type="0x6827" id="Elder Snake Pit Portal">
+    <Class>Portal</Class>
+    <IntergamePortal/>
+    <DungeonName>Elder Snake Pit</DungeonName>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>17898648</Id>
+    </RemoteTexture>
+
+  </Object>
+
+  <Object type="0x6815" id="Elder Snake Pit Key">
+    <Class>Equipment</Class>
+    <Item/>
+<!--    <Key>2000</Key>  -->
+    <Shop>
+      <Name>donorkeys</Name>
+      <Price>100</Price>
+    </Shop>
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0x164</Index>
+    </Texture>
+    
+    <SlotType>10</SlotType>
+    <Description>A key which opens an entrance to a Elder Snake Pit.</Description>
+    <Sound>use_key</Sound>
+    <Consumable/>
+    <Activate id="Elder Snake Pit Portal">Create</Activate>
+    <OldSound>use_key</OldSound>
+  </Object>
+
+  <Object type="0x5e28" id="Elder Snakepit Guard Spawner">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>39</Index>
+    </AnimatedTexture>
+
+    <XpMult>0.0</XpMult>
+    <Size>0</Size>
+    <MaxHitPoints>100</MaxHitPoints>
+    <StasisImmune />
+
+  </Object>
+
+  <Object type="0x5e26" id="Elder Snakepit Guard">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>39</Index>
+    </AnimatedTexture>
+
+    <HitSound>monster/greater_pit_snakes_death</HitSound>
+    <DeathSound>monster/scorpions_death</DeathSound>
+
+    <XpMult>1.0</XpMult>
+    <Size>0</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>50</Defense>
+
+    <Projectile id="0">
+      <ObjectId>Snake Spit</ObjectId>
+      <Speed>45</Speed>
+      <Damage>650</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+    </Projectile>
+
+    <Projectile id="1">
+      <ObjectId>Snake Spinner</ObjectId>
+      <Speed>45</Speed>
+      <Damage>550</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="2">Dazed</ConditionEffect>
+    </Projectile>
+
+    <Projectile id="2">
+      <ObjectId>Snake Ball Spinner</ObjectId>
+      <Speed>30</Speed>
+      <Damage>400</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>150</Size>
+      <ConditionEffect duration="4">Dazed</ConditionEffect>
+    </Projectile>
+
+
+  </Object>
+
+
+  <Object type="0x5e25" id="Elder Snakepit Dart Thrower">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x0a</Index>
+    </Texture>
+
+    <MaxHitPoints>10</MaxHitPoints>
+    <XpMult>0.0</XpMult>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <StasisImmune />
+
+    <Projectile>
+      <ObjectId>Snakepit Dart</ObjectId>
+      <Speed>50</Speed>
+      <Damage>400</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+      <Size>100</Size>
+      <ConditionEffect duration="4">Bleeding</ConditionEffect>
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x5e27" id="Elder Snakepit Button">
+    <Class>Character</Class>
+    <Enemy />
+    <NoMiniMap />
+    <DrawOnGround />
+    <StasisImmune />
+
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x08</Index>
+    </Texture>
+
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObj3</File>
+        <Index>0x09</Index>
+      </Texture>
+    </AltTexture>
+
+    <MaxHitPoints>10</MaxHitPoints>
+    <XpMult>0.0</XpMult>
+    <Size>100</Size>
+    <ShadowSize>0</ShadowSize>
+
+  </Object>
+
+  <Object type="0x5917" id="Elder Stheno the Snake Queen">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5670227773751296</Id>
+    </RemoteTexture>
+    
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/snake_queen_death</DeathSound>
+    <Size>200</Size>
+    <MaxHitPoints>84000</MaxHitPoints>
+    <Defense>40</Defense>
+    <Enemy />
+    <God />
+    <StasisImmune />
+    <Quest />
+    <Level>20</Level>
+    <XpMult>5.7</XpMult>
+    <NoArticle />
+
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Speed>70</Speed>
+      <Damage>1000</Damage>
+      <Size>100</Size>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>White Bullet</ObjectId>
+      <Speed>62</Speed>
+      <Damage>300</Damage>
+      <Size>60</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <ConditionEffect duration="1.4">Blind</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+
+  <Object type="0x5918" id="Elder Stheno Pet">
+    <Class>Character</Class>
+    
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>5778162776539136</Id>
+    </RemoteTexture>
+    
+    <HitSound>monster/snakes_hit</HitSound>
+    <DeathSound>monster/snakes_death</DeathSound>
+    <Size>120</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>7</Defense>
+    <Enemy />
+    <Level>1</Level>
+    <XpMult>0.1</XpMult>
+
+    <Projectile id="0">
+      <ObjectId>Aqua Missile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>750</Damage>
+      <Size>100</Size>
+      <LifetimeMS>900</LifetimeMS>
+      <ConditionEffect duration="2">Slowed</ConditionEffect>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+
+  <Object type="0x5919" id="Elder Stheno Swarm">
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8dEncounters</File>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snakes_hit</HitSound>
+    <DeathSound>monster/snakes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>4</Defense>
+    <Enemy />
+    <Level>1</Level>
+    <XpMult>0.1</XpMult>
+
+    <Projectile id="0">
+      <ObjectId>Aqua Missile</ObjectId>
+      <Speed>60</Speed>
+      <Damage>400</Damage>
+      <Size>70</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <MultiHit />
+    </Projectile>
+
+
+  </Object>
+
+
+  <Object type="0x5223" id="Elder Pit Snake">
+    <Group>Pit Snakes</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xc5</Index>
+    </Texture>
+    <HitSound>monster/pit_snakes_hit</HitSound>
+    <DeathSound>monster/pit_snakes_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+    <Projectile>
+      <ObjectId>Green Magic</ObjectId>
+      <Speed>60</Speed>
+      <Damage>100</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x5224" id="Elder Pit Viper">
+    <Group>Pit Snakes</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xc4</Index>
+    </Texture>
+    <HitSound>monster/pit_snakes_hit</HitSound>
+    <DeathSound>monster/pit_snakes_death</DeathSound>
+    <Size>80</Size>
+    <MaxHitPoints>500</MaxHitPoints>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+    <Projectile>
+      <ObjectId>Purple Magic</ObjectId>
+      <Speed>60</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x5225" id="Elder Fire Python">
+    <Group>Pythons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xed</Index>
+    </Texture>
+    <HitSound>monster/pythons_hit</HitSound>
+    <DeathSound>monster/pythons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>5</Defense>
+    <Projectile>
+      <ObjectId>Red Fire</ObjectId>
+      <Speed>80</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>2000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x5226" id="Elder Brown Python">
+    <Group>Pythons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xee</Index>
+    </Texture>
+    <HitSound>monster/pythons_hit</HitSound>
+    <DeathSound>monster/pythons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Projectile>
+      <ObjectId>Blue Magic</ObjectId>
+      <Speed>80</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x5227" id="Elder Yellow Python">
+    <Group>Pythons</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar8x8</File>
+      <Index>0xef</Index>
+    </Texture>
+    <HitSound>monster/pythons_hit</HitSound>
+    <DeathSound>monster/pythons_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>2000</MaxHitPoints>
+    <Defense>5</Defense>
+    <Projectile>
+      <ObjectId>Green Bolt</ObjectId>
+      <Speed>80</Speed>
+      <Damage>250</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x5228" id="Elder Greater Pit Snake">
+    <Group>Greater Pit Snakes</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar16x8</File>
+      <Index>0x7f</Index>
+    </Texture>
+    <HitSound>monster/greater_pit_snakes_hit</HitSound>
+    <DeathSound>monster/greater_pit_snakes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Projectile>
+      <ObjectId>Green Magic</ObjectId>
+      <Speed>80</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0x5229" id="Elder Greater Pit Viper">
+    <Group>Greater Pit Snakes</Group>
+    <Enemy />
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiChar216x8</File>
+      <Index>0x58</Index>
+    </Texture>
+    <HitSound>monster/greater_pit_snakes_hit</HitSound>
+    <DeathSound>monster/greater_pit_snakes_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>10</Defense>
+    <Projectile>
+      <ObjectId>Purple Magic</ObjectId>
+      <Speed>60</Speed>
+      <Damage>200</Damage>
+      <LifetimeMS>3000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+
+</Remote>

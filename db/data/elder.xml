@@ -1,0 +1,276 @@
+<Remote>
+  <Object type="0x6927" id="Elder Dreadstump the Pirate King">
+    <Enemy/>
+    <Class>Character</Class>
+    <RemoteTexture>
+      <Instance>draw</Instance>
+      <Id>9372349</Id>
+    </RemoteTexture>
+    <HitSound>monster/pirate_king_hit</HitSound>
+    <DeathSound>monster/pirate_king_death</DeathSound>
+    <Size>280</Size>
+    <MaxHitPoints>80000</MaxHitPoints>
+    <Defense>23</Defense>
+    <Quest/>
+    <StasisImmune/>
+    <Level>20</Level>
+    <XpMult>5</XpMult>
+    <NoArticle/>
+
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>500</Damage>
+      <Speed>75</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Black Ball</ObjectId>
+      <Damage>580</Damage>
+      <Speed>130</Speed>
+      <LifetimeMS>1100</LifetimeMS>
+    </Projectile>
+
+
+
+  </Object>
+	<Object type="0x6683" id="Elder Pirate Lieutenant">
+		<Group>Cave Pirate Bosses</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x00</Index></Texture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>205</Size>
+		<MaxHitPoints>16500</MaxHitPoints>
+		<Defense>15</Defense>
+		<Projectile id="0">
+			<ObjectId>Black Ball</ObjectId>
+			<Damage>80</Damage>
+			<Speed>180</Speed>
+			<LifetimeMS>500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x6684" id="Elder Pirate Commander">
+		<Group>Cave Pirate Bosses</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x05</Index></Texture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>210</Size>
+		<MaxHitPoints>17500</MaxHitPoints>
+		<Defense>15</Defense>
+		<Projectile id="0">
+			<ObjectId>Black Ball</ObjectId>
+			<Damage>100</Damage>
+			<Speed>180</Speed>
+			<LifetimeMS>500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x6685" id="Elder Pirate Captain">
+		<Group>Cave Pirate Bosses</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x06</Index></Texture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>215</Size>
+		<MaxHitPoints>18500</MaxHitPoints>
+		<Defense>15</Defense>
+		<Projectile id="0">
+			<ObjectId>Black Ball</ObjectId>
+			<Damage>220</Damage>
+			<Speed>180</Speed>
+			<LifetimeMS>500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x6686" id="Elder Pirate Admiral">
+		<Group>Cave Pirate Bosses</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x07</Index></Texture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>220</Size>
+		<MaxHitPoints>18500</MaxHitPoints>
+		<Defense>15</Defense>
+		<Projectile id="0">
+			<ObjectId>Black Ball</ObjectId>
+			<Damage>240</Damage>
+			<Speed>180</Speed>
+			<LifetimeMS>500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x6687" id="Elder Cave Pirate Brawler">
+		<Group>Cave Pirates</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x02</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<Defense>15</Defense>
+		<Projectile id="0">
+			<ObjectId>Blade</ObjectId>
+			<Damage>180</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x6688" id="Elder Cave Pirate Sailor">
+		<Group>Cave Pirates</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x03</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>10500</MaxHitPoints>
+		<Defense>15</Defense>
+		<Projectile id="0">
+			<ObjectId>Blade</ObjectId>
+			<Damage>160</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x6689" id="Elder Cave Pirate Veteran">
+		<Group>Cave Pirates</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x04</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>6000</MaxHitPoints>
+		<Defense>15</Defense>
+		<Projectile id="0">
+			<ObjectId>Blade</ObjectId>
+			<Damage>160</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x668a" id="Elder Cave Pirate Moll">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x08</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>10</Defense>
+	</Object>
+	<Object type="0x668b" id="Elder Cave Pirate Parrot">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x09</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>170</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>15</Defense>
+	</Object>
+	<Object type="0x668c" id="Elder Cave Pirate Macaw">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x0a</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>170</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>15</Defense>
+	</Object>
+	<Object type="0x668d" id="Elder Cave Pirate Monkey">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x0b</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>170</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>15</Defense>
+	</Object>
+	<Object type="0x668e" id="Elder Cave Pirate Hunchback">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x0c</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>170</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>15</Defense>
+	</Object>
+	<Object type="0x668f" id="Elder Cave Pirate Cabin Boy">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture><File>lofiChar28x8</File><Index>0x0d</Index></Texture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>170</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>15</Defense>
+	</Object>
+
+  <Object type="0x6600" id="Elder Pirate">
+    <Group>Pirates</Group>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>5</MaxHitPoints>
+    <Defense>0</Defense>
+    <Terrain>ShoreSand</Terrain>
+
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>4</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+
+
+  </Object>
+
+  <Object type="0x6601" id="Elder Piratess">
+    <Group>Pirates</Group>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rBeach</File>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <HitSound>monster/pirates_hit</HitSound>
+    <DeathSound>monster/pirates_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>6</MaxHitPoints>
+    <Defense>0</Defense>
+    <Terrain>ShoreSand</Terrain>
+    <SpawnProb>1.0</SpawnProb>
+
+    <Projectile id="0">
+      <ObjectId>Blade</ObjectId>
+      <Damage>4</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>600</LifetimeMS>
+    </Projectile>
+
+
+
+
+  </Object>
+
+
+</Remote>
