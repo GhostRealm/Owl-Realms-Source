@@ -1,4 +1,4 @@
-PhoenixRealms
+Owl Realms Source
 =============
 
-RotMG Private Server - PhoenixRealms
+RotMG Private Server - Owl Realms
